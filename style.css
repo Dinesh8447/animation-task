@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+div{
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    border: blueviolet solid 10px ;
+    border-style: dotted ;
+    border-radius: 50%;
+    animation: anime 2s infinite ;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes anime{
+   0%{
+    transform: rotate(360deg);
+    border-color: chartreuse;
+   }
+   20%{
+    border-color: cyan;
+   }
+   50%{
+    border-color: deeppink;
+
+   }
+   80%{
+    border-color: deepskyblue;
+   }
+   100%{
+       border-color: floralwhite;
+   }
+} 
+
+
+
+
+
+
+
+
+
+
